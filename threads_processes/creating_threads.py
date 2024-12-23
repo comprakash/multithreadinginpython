@@ -8,7 +8,7 @@ def do_work():
     print("Finished work")
 
 
-for _ in range(5):
+for _ in range(12):
     t = Thread(target=do_work, args=())
     t.start()
 
